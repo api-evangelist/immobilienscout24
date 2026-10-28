@@ -64,5 +64,146 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ImmobilienScout24 is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://immobilienscout24.de/
+ImmobilienScout24 (operated by Immobilien Scout GmbH, Berlin) is a German online real-estate marketplace for property listings to buy and rent. Its ImmoScout24 API developer portal at api.immobilienscout24.de documents REST APIs under rest.immobilienscout24.de/restapi/api for importing and exporting real-estate listings (real estates, attachments, contacts, publishing, OnTop placements, projects), search and exposés, geo services, energy certificates and construction financing. Access uses OAuth 1.0a (two- and three-legged) or personal access tokens with API keys created in a business account, offers a sandbox, and production use is charged per the Terms of Use price list.
+
+**Areas:** Company · Real Estate · Marketplace · API · Germany · Property Listings · OAuth · Search · Construction Financing
+
+## ImmobilienScout24 on APIs.io
+
+Everything profiled for ImmobilienScout24 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/immobilienscout24/](https://apis.io/providers/immobilienscout24/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [ImmoScout24 API](https://apis.io/apis/immobilienscout24/immoscout24-api/) — REST APIs for real-estate listing import/export, search and exposés, geo services, energy certificates and construction financing, documented on the…
+- [ImmobilienScout24 API](https://apis.io/apis/immobilienscout24/immobilienscout24-api/) — ImmobilienScout24 API as documented publicly: 42 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetOfferV10UserUsernameContactResponse](https://apis.io/schemas/immobilienscout24/immobilienscout24-get-offer-v10-user-username-contact-response/)
+- [PostOfferV10UserUsernameContactRequest](https://apis.io/schemas/immobilienscout24/immobilienscout24-post-offer-v10-user-username-contact-request/)
+- [PostOfferV10UserUsernameRealestateprojectProjectProposalRequ](https://apis.io/schemas/immobilienscout24/immobilienscout24-post-offer-v10-user-username-realestateproject-project-proposal-requ/)
+- [PostOfferV10UserUsernameRealestateprojectRealestateprojectid3](https://apis.io/schemas/immobilienscout24/immobilienscout24-post-offer-v10-user-username-realestateproject-realestateprojectid3/)
+- [PutOfferV10UserUsernameContactIdOrExtExternalidRequest](https://apis.io/schemas/immobilienscout24/immobilienscout24-put-offer-v10-user-username-contact-id-or-ext-externalid-request/)
+- [PutOfferV10UserUsernameRealestateprojectRealestateprojectidR](https://apis.io/schemas/immobilienscout24/immobilienscout24-put-offer-v10-user-username-realestateproject-realestateprojectid-r/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Immobilienscout24 Context](https://apis.io/jsonld/immobilienscout24/immobilienscout24-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Immobilienscout24 Openapi Generated Overlay](https://apis.io/overlays/immobilienscout24/immobilienscout24-openapi-generated-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ImmobilienScout24 API Rules](https://apis.io/rules/immobilienscout24/immobilienscout24-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Immobilienscout24 Authentication](https://apis.io/security/immobilienscout24/immobilienscout24-authentication/)
+- [Immobilienscout24 Domain Security](https://apis.io/security/immobilienscout24/immobilienscout24-domain-security/)
+- [Immobilienscout24 Vulnerability Disclosure](https://apis.io/security/immobilienscout24/immobilienscout24-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Immobilienscout24 Scopes](https://apis.io/scopes/immobilienscout24/immobilienscout24-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Immobilienscout24 Plans Pricing](https://apis.io/plans/immobilienscout24/immobilienscout24-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Immobilienscout24 Rate Limits](https://apis.io/rate-limits/immobilienscout24/immobilienscout24-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.immobilienscout24.de/)
+- [Documentation](https://api.immobilienscout24.de/)
+- [Getting started](https://api.immobilienscout24.de/api-docs/get-started/introduction/)
+- [API reference](https://api.immobilienscout24.de/)
+- [Pricing](https://api.immobilienscout24.de/terms-of-use/en/)
+- [Sign up](https://selfservice.immobilienscout24.de/)
+- [Support](https://api.immobilienscout24.de/more/support-feedback/)
+- [Changelog](https://api.immobilienscout24.de/more/changelog/)
+- [Blog](https://api.immobilienscout24.de/more/newsupdates/)
+- [Terms of service](https://api.immobilienscout24.de/terms-of-use/en/)
+- [Privacy policy](https://www.immobilienscout24.de/agb/datenschutz.html)
+- [GitHub](https://github.com/immobilienscout24)
+
+## API Evangelist rating
+
+**Kin Score 69.0** — exemplar · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 50.5 |
+| Developer ergonomics | 82.6 |
+| Access clarity | 73.2 |
+
+**Agent readiness 30.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/immobilienscout24/](https://apis.io/providers/immobilienscout24/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ImmobilienScout24: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/immobilienscout24/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
